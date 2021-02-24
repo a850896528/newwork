@@ -1,0 +1,382 @@
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+ul{
+  padding: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.nav {
+  display: flex;
+  height: 140px;
+  align-content: center;
+  background-color: tomato;
+}
+.navitems ul {
+  width: 450px;
+  font-size: 15px;
+  font-weight: 10px;
+  display: flex;
+  padding-left: 0;
+  justify-content: space-between;
+}
+.search {
+  margin-left: 100px;
+  display: flex;
+  align-content: center;
+  margin-top: 1.5vh;
+}
+.searchbox {
+  width: 475px;
+  height: 35px;
+  background-color: #f4f4f4;
+  border: none;
+  padding-left: 15px;
+}
+.searchbtn {
+  height: 37px;
+  width: 50px;
+  background-color: #e7e7e7;
+  border: none;
+  background: url(Bi2.png);
+  cursor: pointer;
+}
+.img {
+  margin-top: 1vh;
+  margin-left: 150px;
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+}
+.user {
+  display: flex;
+  font-size: 15px;
+  justify-content: flex-start;
+  font-size: 15px;
+  font-weight: 10px;
+  width: 250px;
+  height: 50px;
+  margin-top: 2vh;
+}
+.user li {
+  margin-right: 15px;
+}
+.submit {
+  height: 35px;
+  width: 100px;
+  background-color: rgb(251, 114, 153);
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  margin-right: 10px;
+  margin-top: 1vh;
+}
+.category {
+  width: 1200px;
+  height: 100px;
+  display: flex;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.category ul {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.category ul li a {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  align-items: center;
+}
+.line1 {
+  float: left;
+  margin-top: 20px;
+  width: 1px;
+  height: 55px;
+  background: darkgray;
+  margin-left: 5px;
+}
+.nav2 {
+  display: flex;
+  width: 700px;
+  background-color: bisque;
+  flex-wrap: wrap;
+  height: 70px;
+  margin-top: 14px;
+}
+.nav2 a {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.nav2 a span {
+  display: inline-block;
+  font-size: 3px;
+  text-align: center;
+  color: white;
+  background-color: rgb(115, 201, 229);
+  border-radius: 2px;
+  margin-left: 2px;
+  width: 30px;
+}
+.line2 {
+  float: left;
+  margin-top: 20px;
+  width: 1px;
+  height: 55px;
+  background: darkgray;
+  margin-left: 5px;
+}
+.nav3 {
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 230px;
+  align-items: center;
+  height: 55px;
+  margin-top: 20px;
+}
+.nav3 a {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.push {
+  padding: 0;
+  width: 1200px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.l-wrap{
+  padding: 0;
+  position: relative;
+  width: 540px;
+  height: 250px;
+}
+.l-wlist{
+  padding: 0;
+  margin-top: 0;
+}
+.l-wlist li{
+  position: absolute;
+  width: 520px;
+  height: 250px;
+  z-index: 1;
+}
+.item:nth-child(1){
+  background-color: aqua;
+}
+.item:nth-child(2){
+  background-color:chocolate;
+}
+.item:nth-child(3){
+  background-color:brown;
+}
+.item:nth-child(4){
+  background-color: bisque;
+}
+.item{
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.item.active{
+  z-index: 10;
+  opacity:1;
+}
+.point.active{
+  background-color: rgb(0,161,214);
+  border: solid;
+  border-width: 2px;
+  border-color: white;
+}
+.pointlist{
+  padding: 0;
+  position: absolute;
+  z-index: 100;
+  right: 18px;
+  bottom: 0;
+}
+.point{
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 100%;
+  float: left;
+  margin-left: 18px;
+}
+.r-banner{
+  width: 680px;
+  height: 250px;
+  padding: 0;
+}
+.arealist{
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0; 
+  align-content: space-between;
+}
+.area{
+  width: 200px;
+  height: 110px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  position: relative;
+  color: #e7e7e7;
+}
+.area:nth-child(1) {
+  background-color: lightgreen;
+}
+.area:nth-child(2) {
+  background-color: lightpink;
+}
+.area:nth-child(3) {
+  background-color: lightskyblue;
+}
+.area:nth-child(4) {
+  background-color: lightyellow;
+}
+.area:nth-child(5) {
+  background-color: lightslategray;
+}
+.area:nth-child(6) {
+  background-color: lightsteelblue;
+}
+.area span{
+  display: block;
+  font-size: 15px;
+  position: absolute;
+  margin-bottom: 0;
+  bottom: 0;
+  width: 200px;
+  height: 30px;
+  overflow: hidden;
+}
+.area p{
+  margin-top: 10px;
+}
+.area:hover .infor{
+  background-color: rgb(49,57,59);
+  height: 110px;
+  transition-timing-function: linear;
+  text-overflow: ellipsis;
+  transition-duration: 0.08s;
+}
+.text{
+  display: block;
+  margin-top: 20px;
+  font-size: 10px;
+  margin-top: 30px;
+}
+.area div{
+  margin-left: 10px;
+  padding: 0;
+}
+.stream{
+  display: block;
+  margin-top: 5px;
+  font-size: 10px;
+}
+.live{
+  margin-top: 10px;
+  width: 1200px;
+  background-color: burlywood;
+  height: 450px;
+}
+.title1{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 50px;
+  margin-left: 10px;
+  width: 1125px;
+  background-color: chartreuse;
+}
+.title1 a{
+  margin-left: 10px;
+  font-size: 20px;
+}
+.live-man{
+  font-size: 10px;
+  margin-left: 50px;
+}
+.change{
+  margin-left: 430px;
+}
+.change button{
+  margin-right: 10px;
+}
+.livelist{
+  display: flex;
+  flex-flow: row wrap;
+  width: 850px;
+  background-color: coral;
+  height: 380px;
+  padding: 0;
+}
+.livewd{
+  width: 200px;
+  height: 170px;
+  margin-left: 10px;
+  padding: 0;
+  display: flex;
+}
+.pic{
+  width: 200px;
+  height: 100px;
+  background-color: bisque;
+  padding: 0;
+  top: 0;
+  display: flex;
+}
+.livewd:nth-child(1) {
+  background-color: lightgreen;
+}
+.livewd:nth-child(2) {
+  background-color: lightpink;
+}
+.livewd:nth-child(3) {
+  background-color: lightskyblue;
+}
+.livewd:nth-child(4) {
+  background-color: lightyellow;
+}
+.livewd:nth-child(5) {
+  background-color: lightslategray;
+}
+.livewd:nth-child(6) {
+  background-color: lightsteelblue;
+}
+.livewd:nth-child(7) {
+  background-color:cyan;
+}
+.livewd:nth-child(8) {
+  background-color:deeppink;
+}
+.liver-list span{
+  margin-left: 20px;
+  cursor:pointer;
+}
+.liver-list .livewd span{
+  display: flex;
+  background-color: black;
+}
+
+
+

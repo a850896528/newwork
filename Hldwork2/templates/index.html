@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BiliBili[]~(￣▽￣)~*</title>
+    <link rel="stylesheet" type="text/css" href="../static/index.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script
+      crossorigin="anonymous"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      src="https://lib.baomitu.com/jquery/3.5.1/jquery.min.js"
+    ></script>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="navitems">
+        <ul>
+          <li><a href="">主站</a></li>
+          <li><a href="">番剧</a></li>
+          <li><a href="">游戏中心</a></li>
+          <li><a href="">直播</a></li>
+          <li><a href="">会员购</a></li>
+          <li><a href="">漫画</a></li>
+          <li><a href="">赛事</a></li>
+          <li><a href="">下载APP</a></li>
+        </ul>
+      </div>
+      <div class="search">
+        <input
+          type="text"
+          class="searchbox"
+          placeholder="郑爽被DISS？大快人心！"
+        />
+        <button class="searchbtn"></button>
+      </div>
+      <div class="img">
+        <a href=""><img src="../static/Bi5.png" /></a>
+      </div>
+      <div class="user">
+        <li><a href="">登录</a></li>
+        <li><a href="">注册</a></li>
+      </div>
+      <a href=""><button class="submit">投稿</button></a>
+    </div>
+    <div class="main">
+      <div class="category">
+        <ul>
+          <li>
+            <a href="">
+              <span><img src="../static/首页.png" /></span>
+              <span>首页</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span><img src="../static/动态.png" /></span>
+              <span>动态</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span><img src="../static/热门.png" /></span>
+              <span>热门</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <span><img src="../static/频道.png" /></span>
+              <span>频道</span>
+            </a>
+          </li>
+        </ul>
+        <div class="line1"></div>
+        <div class="nav2">
+          <a href="">动画<span>999+</span></a
+          ><a href="">热门<span>999+</span></a
+          ><a href="">舞蹈<span>999+</span></a
+          ><a href="">知识<span>999+</span></a
+          ><a href="">生活<span>999+</span></a
+          ><a href="">时尚<span>999+</span></a
+          ><a href="">娱乐<span>999+</span></a
+          ><a href="">放映厅<span>999+</span></a
+          ><a href="">美食<span>999+</span></a
+          ><a href="">单机游戏<span>999+</span></a
+          ><a href="">番剧<span>254</span></a
+          ><a href="">国创<span>986</span></a
+          ><a href="">游戏<span>999+</span></a
+          ><a href="">数码<span>999+</span></a
+          ><a href="">鬼畜<span>478</span></a
+          ><a href="">资讯<span>999+</span></a
+          ><a href="">影视<span>999+</span></a
+          ><a href="">搞笑<span>999+</span></a
+          ><a href="">动物圈<span>999+</span></a
+          ><a href="">VLOG</a>
+        </div>
+        <div class="line2"></div>
+        <div class="nav3">
+          <a href=""><img src="../static/书签.png" /><span>专栏</span></a
+          ><a href=""><img src="../static/活动.png" /><span>活动</span></a
+          ><a href=""><img src="../static/天平秤.png" /><span>小黑屋</span></a
+          ><a href=""><img src="../static/直播.png" /><span>直播</span></a
+          ><a href=""><img src="../static/课堂答疑.png" /><span>课堂</span></a
+          ><a href=""><img src="../static/音乐.png" /><span>音乐PLUS</span></a>
+        </div>
+      </div>
+      <div class="push">
+        <div class="l-wrap">
+          <ul class="l-wlist">
+            <li class="item active"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+            <li class="item"></li>
+          </ul>
+          <ul class="pointlist">
+            <li class="point active" data-index="0"></li>
+            <li class="point" data-index="1"></li>
+            <li class="point" data-index="2"></li>
+            <li class="point" data-index="3"></li>
+          </ul>
+        </div>
+        <div class="r-banner">
+          <ul class="arealist">
+            <li class="area">
+              <span class="infor"
+                ><div>
+                  <p>wdnmd</p>
+                  <a class="text">up:</a>
+                  <a class="stream">6</a>
+                </div></span
+              >
+            </li>
+            <li class="area">
+              <span class="infor"
+                ><div>
+                  <p>wdnmd</p>
+                  <a class="text">up:</a>
+                  <a class="stream">7</a>
+                </div></span
+              >
+            </li>
+            <li class="area">
+              <span class="infor"
+                ><div>
+                  <p>wdnmd</p>
+                  <a class="text">up:</a>
+                  <a class="stream">8</a>
+                </div></span
+              >
+            </li>
+            <li class="area">
+              <span class="infor"
+                ><div>
+                  <p>wdnmd</p>
+                  <a class="text">up:</a>
+                  <a class="stream">9</a>
+                </div></span
+              >
+            </li>
+            <li class="area">
+              <span class="infor"
+                ><div>
+                  <p>wdnmd</p>
+                  <a class="text">up:</a>
+                  <a class="stream">10</a>
+                </div></span
+              >
+            </li>
+            <li class="area">
+              <span class="infor"
+                ><div>
+                  <p>wdnmd</p>
+                  <a class="text">up:</a>
+                  <a class="stream">11</a>
+                </div></span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="live">
+        <div class="title1">
+          <p class=""><img src="../static/直播1.png" /></p>
+          <a href="">正在直播</a
+          ><span class="live-man">当前共有多少人在观看</span
+          ><span class="change"
+            ><button>换一换</button><button>更多</button></span
+          ><span class="liver-list"
+            ><span>直播排行</span><span>关注的主播</span
+            ><span>为您推荐</span></span
+          >
+        </div>
+        <div class="live-box">
+          <ul class="livelist">
+            <li class="livewd"><div class="pic"><p><img src=""><span><img src=""><a></a>1</span></p></div></li>
+            <li class="livewd"><div class="pic"><p><img src=""><span><img src=""><a></a>2</span></p></div></li>
+            <li class="livewd"><div class="pic"><p><img src=""><span><img src=""><a></a>3</span></p></div></li>
+            <li class="livewd"><div class="pic"><p><img src=""><span><img src=""><a></a>4</span></p></div></li>
+            <li class="livewd"><div class="pic"><p><img src=""><span><img src=""><a></a>5</span></p></div></li>
+            <li class="livewd"><div class="pic"><p><img src=""><span><img src=""><a></a>6</span></p></div></li>
+            <li class="livewd"><div class="pic"><p><img src=""><span><img src=""><a></a>7</span></p></div></li>
+            <li class="livewd"><div class="pic"><p><img src=""><span><img src=""><a></a>8</span></p></div></li>
+          </ul>
+          <div class="livewrap"></div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="../static/index.js"></script>
+  </body>
+</html>
